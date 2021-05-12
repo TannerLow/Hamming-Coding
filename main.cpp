@@ -9,6 +9,7 @@ int main(){
 	printf("Insert a number 0-2047: ");
 	short input;
 	scanf("%hd", &input);
+	//Makes sure number is 11 bits and is not negative 
 	if(input > 2047 or input < 0) {
 		printf("Number not valid\n");
 		return 0;
